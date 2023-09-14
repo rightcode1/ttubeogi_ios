@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1043169498637-lbrvid8soq2hom413oiflnfhd4rocnej.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1043169498637-lbrvid8soq2hom413oiflnfhd4rocnej</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1043169498637-f27leq9gnh8a2kn5raitj8akg3t5g3pa.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC3Z0uXQisfeAykhrUJeesSRLgm1PPVbc8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1043169498637</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.WorkDonation.rchooon</string>
+	<key>PROJECT_ID</key>
+	<string>ttubeogi-dd85a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ttubeogi-dd85a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1043169498637:ios:848cc37ced18e68e1fe744</string>
+	<key>DATABASE_URL</key>
+	<string>https://ttubeogi-dd85a.firebaseio.com</string>
+</dict>
+</plist>

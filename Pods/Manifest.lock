@@ -1,0 +1,288 @@
+PODS:
+  - Alamofire (5.1.0)
+  - CocoaLumberjack/Core (3.7.0)
+  - CocoaLumberjack/Swift (3.7.0):
+    - CocoaLumberjack/Core
+  - CodableAlamofire (1.2.1):
+    - Alamofire (~> 5.1.0)
+  - Cosmos (23.0.0)
+  - CropViewController (2.5.5)
+  - DropDown (2.3.13)
+  - DynamicBlurView (4.1.0)
+  - Firebase/Analytics (7.0.0):
+    - Firebase/Core
+  - Firebase/Core (7.0.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 7.0.0)
+  - Firebase/CoreOnly (7.0.0):
+    - FirebaseCore (= 7.0.0)
+  - Firebase/Messaging (7.0.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 7.0.0)
+  - FirebaseAnalytics (7.0.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleAppMeasurement (= 7.0.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/MethodSwizzler (~> 7.0)
+    - GoogleUtilities/Network (~> 7.0)
+    - "GoogleUtilities/NSData+zlib (~> 7.0)"
+    - nanopb (~> 2.30906.0)
+  - FirebaseCore (7.0.0):
+    - FirebaseCoreDiagnostics (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+  - FirebaseCoreDiagnostics (7.0.0):
+    - GoogleDataTransport (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+    - nanopb (~> 2.30906.0)
+  - FirebaseInstallations (7.0.0):
+    - FirebaseCore (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/UserDefaults (~> 7.0)
+    - PromisesObjC (~> 1.2)
+  - FirebaseInstanceID (7.0.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/UserDefaults (~> 7.0)
+  - FirebaseMessaging (7.0.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstanceID (~> 7.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Reachability (~> 7.0)
+    - GoogleUtilities/UserDefaults (~> 7.0)
+  - FSCalendar (2.8.1)
+  - FSPagerView (0.8.3)
+  - GoogleAppMeasurement (7.0.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/MethodSwizzler (~> 7.0)
+    - GoogleUtilities/Network (~> 7.0)
+    - "GoogleUtilities/NSData+zlib (~> 7.0)"
+    - nanopb (~> 2.30906.0)
+  - GoogleDataTransport (8.0.0):
+    - nanopb (~> 2.30906.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.0.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.0.0):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (7.0.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.0.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.0.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.0.0)"
+  - GoogleUtilities/Reachability (7.0.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.0.0):
+    - GoogleUtilities/Logger
+  - Hero (1.5.0)
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
+  - IQKeyboardManagerSwift (6.4.2)
+  - JGProgressHUD (2.2)
+  - KakaoSDKAuth (2.11.3):
+    - KakaoSDKCommon (= 2.11.3)
+  - KakaoSDKCommon (2.11.3):
+    - KakaoSDKCommon/Common (= 2.11.3)
+    - KakaoSDKCommon/Network (= 2.11.3)
+  - KakaoSDKCommon/Common (2.11.3)
+  - KakaoSDKCommon/Network (2.11.3):
+    - Alamofire (~> 5.1)
+    - KakaoSDKCommon/Common (= 2.11.3)
+  - KakaoSDKShare (2.11.3):
+    - KakaoSDKCommon (= 2.11.3)
+    - KakaoSDKTemplate (= 2.11.3)
+  - KakaoSDKTemplate (2.11.3):
+    - KakaoSDKCommon/Common (= 2.11.3)
+  - KakaoSDKUser (2.11.3):
+    - KakaoSDKAuth (= 2.11.3)
+  - Kingfisher (5.15.7):
+    - Kingfisher/Core (= 5.15.7)
+  - Kingfisher/Core (5.15.7)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (14.0.0):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - nanopb (2.30906.0):
+    - nanopb/decode (= 2.30906.0)
+    - nanopb/encode (= 2.30906.0)
+  - nanopb/decode (2.30906.0)
+  - nanopb/encode (2.30906.0)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
+  - PromisesObjC (1.2.11)
+  - RangeSeekSlider (1.8.0)
+  - RxAlamofire (5.6.0):
+    - RxAlamofire/Core (= 5.6.0)
+  - RxAlamofire/Core (5.6.0):
+    - Alamofire (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxGesture (3.0.2):
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SDWebImage (5.9.4):
+    - SDWebImage/Core (= 5.9.4)
+  - SDWebImage/Core (5.9.4)
+  - Segmentio (4.1)
+  - SwiftyIamport (4.2.0)
+  - SwiftyJSON (5.0.0)
+  - Then (2.7.0)
+  - XLPagerTabStrip (9.0.0)
+  - YoutubePlayer-in-WKWebView (0.3.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - CocoaLumberjack/Swift
+  - CodableAlamofire
+  - Cosmos
+  - CropViewController
+  - DropDown
+  - Firebase/Analytics
+  - Firebase/Messaging
+  - FSCalendar
+  - FSPagerView
+  - Hero
+  - IGListKit
+  - IQKeyboardManagerSwift (= 6.4.2)
+  - JGProgressHUD
+  - KakaoSDKAuth
+  - KakaoSDKCommon
+  - KakaoSDKShare
+  - KakaoSDKTemplate
+  - KakaoSDKUser
+  - Kingfisher
+  - Moya
+  - Moya/RxSwift
+  - PopupDialog
+  - RangeSeekSlider
+  - RxAlamofire
+  - RxGesture
+  - RxSwift
+  - SDWebImage
+  - Segmentio
+  - SwiftyIamport
+  - SwiftyJSON
+  - Then
+  - XLPagerTabStrip
+  - YoutubePlayer-in-WKWebView
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CocoaLumberjack
+    - CodableAlamofire
+    - Cosmos
+    - CropViewController
+    - DropDown
+    - DynamicBlurView
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseInstallations
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FSCalendar
+    - FSPagerView
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleUtilities
+    - Hero
+    - IGListDiffKit
+    - IGListKit
+    - IQKeyboardManagerSwift
+    - JGProgressHUD
+    - KakaoSDKAuth
+    - KakaoSDKCommon
+    - KakaoSDKShare
+    - KakaoSDKTemplate
+    - KakaoSDKUser
+    - Kingfisher
+    - Moya
+    - nanopb
+    - PopupDialog
+    - PromisesObjC
+    - RangeSeekSlider
+    - RxAlamofire
+    - RxCocoa
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - Segmentio
+    - SwiftyIamport
+    - SwiftyJSON
+    - Then
+    - XLPagerTabStrip
+    - YoutubePlayer-in-WKWebView
+
+SPEC CHECKSUMS:
+  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  CocoaLumberjack: e8955b9d337ac307103b0a34fd141c32f27e53c5
+  CodableAlamofire: 3532ececac18593b300d775f2a51feca2f83a2f1
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  CropViewController: bd3ff11eeeaadc1e267bb9c3f3e9ee67a52d3285
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  DynamicBlurView: 58e18fae80bb614e34681a4486870e7d257b62e8
+  Firebase: 50be68416f50eb4eb2ecb0e78acab9a051ef95df
+  FirebaseAnalytics: c1166b7990bae464c6436132510bb718c6680f80
+  FirebaseCore: cf3122185fce1cf71cedbbc498ea84d2b3e7cb69
+  FirebaseCoreDiagnostics: 5f4aa04fdb04923693cc704c7ef9158bdf41a48b
+  FirebaseInstallations: c28d4bcbb5c6884d1a39afbc0bd7fc590e31e9b7
+  FirebaseInstanceID: c03b49743725092f7eb9d4b96ff40efadd830426
+  FirebaseMessaging: ecf9e04716b7ff1f1d92debab4d6f0e6bdb490aa
+  FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  GoogleAppMeasurement: 7790ef975d1d463c8614cd949a847e612edf087a
+  GoogleDataTransport: 6ce8004a961db1b905740d7be106c61ba7e89c21
+  GoogleUtilities: ffb2f4159f2c897c6e8992bd7fbcdef8a300589c
+  Hero: b7385b75e7259da62f4f85462f59a5082d66b058
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
+  IQKeyboardManagerSwift: 79a3ec200dfb41cb66a89b8575417b5378107c5d
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  KakaoSDKAuth: a64dde90516e18fdfc35b83bbad2677c3675c329
+  KakaoSDKCommon: b4235203f67a5b6ee2df75eaf9bbc863c6d92e09
+  KakaoSDKShare: 1a43689303e049a9b61a10e079ddb66e6e4a9806
+  KakaoSDKTemplate: 295e57cf2826bc2cbdaf2c37e1ee62e69ea58d74
+  KakaoSDKUser: 9a42e9b74855ce876b071c841418aa6726534010
+  Kingfisher: 6e1a13523fcb1c86924ce53affe4ac957e544d59
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  nanopb: 1bf24dd71191072e120b83dd02d08f3da0d65e53
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
+  PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
+  RangeSeekSlider: 650b11fa1edcb92e1e0ede797669d98622570fb5
+  RxAlamofire: f34ddbab56fa2a36f99737f4d4ecc22288a1384f
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxGesture: d6bd7447ca3a596c7a9702a6a2b6a2bb5d8bae54
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
+  Segmentio: ab29def64e1bff6e6e9b97671788a99bed3f1d9f
+  SwiftyIamport: 5a092afd5f97452ad70f468e1c698eb2fbb1a710
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
+  YoutubePlayer-in-WKWebView: af2f5929fc78882d94bfdfeea999b661b78d9717
+
+PODFILE CHECKSUM: 0224b5e48ed32b120c42aa56612f1726ea469e8c
+
+COCOAPODS: 1.11.3
