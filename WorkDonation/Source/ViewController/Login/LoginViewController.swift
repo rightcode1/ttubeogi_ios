@@ -11,9 +11,12 @@ import KakaoSDKAuth
 import KakaoSDKUser
 import AuthenticationServices
 
-class LoginViewController: UIViewController {
+class LoginViewController: BaseViewController {
   @IBOutlet var appleLoginView: UIView!
   
+  @IBOutlet var ivLogo: UIImageView!
+  
+  var testModeCount = 0
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -22,6 +25,18 @@ class LoginViewController: UIViewController {
     }else {
       appleLoginView.isHidden = true
     }
+    
+    ivLogo.rx.gesture(.tap()).when(.recognized).subscribe(onNext: { [weak self] _ in
+          guard let self = self else { return }
+      if testModeCount < 5 {
+        testModeCount += 1
+        showToast(message: "개발자 모드로 로그인 \(testModeCount) / 5")
+        return
+      }
+        let vc = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Main")
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true, completion: nil)
+        }).disposed(by: disposeBag)
   }
   
   func moveToMain() {

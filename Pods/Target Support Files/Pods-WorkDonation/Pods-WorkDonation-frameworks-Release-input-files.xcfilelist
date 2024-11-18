@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-WorkDonation/Pods-WorkDonation-frameworks.sh
+${PODS_ROOT}/AdFitSDK/Frameworks/AdFitSDK.framework
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework
 ${BUILT_PRODUCTS_DIR}/CodableAlamofire/CodableAlamofire.framework

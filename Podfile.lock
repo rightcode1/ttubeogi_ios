@@ -1,4 +1,5 @@
 PODS:
+  - AdFitSDK (3.12.7)
   - Alamofire (5.1.0)
   - CocoaLumberjack/Core (3.7.0)
   - CocoaLumberjack/Swift (3.7.0):
@@ -149,6 +150,7 @@ PODS:
   - YoutubePlayer-in-WKWebView (0.3.4)
 
 DEPENDENCIES:
+  - AdFitSDK
   - Alamofire
   - CocoaLumberjack/Swift
   - CodableAlamofire
@@ -186,6 +188,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - AdFitSDK
     - Alamofire
     - CocoaLumberjack
     - CodableAlamofire
@@ -235,6 +238,7 @@ SPEC REPOS:
     - YoutubePlayer-in-WKWebView
 
 SPEC CHECKSUMS:
+  AdFitSDK: dc7a5a2ed6e432355d7429eed27c8f88d46da4cd
   Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
   CocoaLumberjack: e8955b9d337ac307103b0a34fd141c32f27e53c5
   CodableAlamofire: 3532ececac18593b300d775f2a51feca2f83a2f1
@@ -283,6 +287,6 @@ SPEC CHECKSUMS:
   XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
   YoutubePlayer-in-WKWebView: af2f5929fc78882d94bfdfeea999b661b78d9717
 
-PODFILE CHECKSUM: 0224b5e48ed32b120c42aa56612f1726ea469e8c
+PODFILE CHECKSUM: cd1168cacdbee2c9f80bfb7734263eda7dd9a5fe
 
 COCOAPODS: 1.11.3

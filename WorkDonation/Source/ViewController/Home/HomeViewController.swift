@@ -10,6 +10,8 @@ import CoreLocation
 import HealthKit
 import RxSwift
 import RxGesture
+import AdFitSDK
+import AppTrackingTransparency
 
 class HomeViewController: UIViewController {
   @IBOutlet weak var mainServiceNewsCollectionView: UICollectionView!
@@ -26,6 +28,7 @@ class HomeViewController: UIViewController {
   @IBOutlet var treeLabel: UILabel!
   @IBOutlet var co2Label: UILabel!
   @IBOutlet var stepBackView: UIView!
+  @IBOutlet var bannerAdView: UIView!
   
   let notificationCenter = NotificationCenter.default
   
@@ -50,6 +53,7 @@ class HomeViewController: UIViewController {
   var showCounter = 0
   
   let infiniteCount: Int = 999
+  var adView : AdFitBannerAdView?
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -77,9 +81,22 @@ class HomeViewController: UIViewController {
       // Don't have permission, yet
       handlePermissions()
     }
+    adView = AdFitBannerAdView(clientId: "DAN-lUILRLsgKMevH9qe", adUnitSize: "320x50")
+    adView?.delegate = self
+    adView?.frame = view.bounds.divided(atDistance: 50, from: .minYEdge).slice
+    loadAd()
     stepDetail()
     initStepsCount()
     
+  }
+  private func loadAd() {
+      if #available(iOS 14, *) {
+          ATTrackingManager.requestTrackingAuthorization { [weak self] status in
+            self?.adView?.loadAd()
+          }
+      } else {
+        self.adView?.loadAd()
+      }
   }
   
   override func viewWillDisappear(_ animated: Bool) {
@@ -700,3 +717,20 @@ extension HomeViewController: CLLocationManagerDelegate {
     }
   }
 }
+
+extension HomeViewController: AdFitBannerAdViewDelegate{
+  //Mark - AdFitBannerAdViewDelegate
+  func adViewDidReceiveAd(_ bannerAdView: AdFitBannerAdView) {
+    self.bannerAdView.addSubview(bannerAdView)
+      print("didReceiveAd")
+  }
+  
+  func adViewDidFailToReceiveAd(_ bannerAdView: AdFitBannerAdView, error: Error) {
+      print("!!!!!didFailToReceive - error :\(error.localizedDescription)" )
+  }
+  
+  func adViewDidClickAd(_ bannerAdView: AdFitBannerAdView) {
+      print("didClickAd")
+  }
+}
+
